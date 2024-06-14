@@ -1,0 +1,8 @@
+Hinweise zur Ausführung und Benutzung
+
+_Starten des Programms_
+Um das Programm ausführen zu können, muss die Jar-Zip Datei heruntergeladen und entpackt werden. Außerdem muss eine Java Runtime Environment eingerichtet sein. Anschließend sollte sich das Startfenster durch einen Doppelklick öffnen lassen. Ab dann sollte die Bedienung durch entsprechende Anweisungen intuitiv sein - selbst für Leute, die Kniffel nicht kennen.
+
+_Anbindung an die Datenbank_
+Das Anzeigen des Leaderboards zum Spielende ist an eine Derby Datenbank geknüpft, welche keinen öffentlichen Zugriff hat. Deshalb könnten beim Versuch eine Verbindung herzustellen Warndialoge angezeigt werden oder die Leaderboard-Tabelle ist leer, da das Datenbankverzeichnis auf meinem Computer eingerichtet ist. 
+Deshalb habe ich die derbyrun.jar Datei beigefügt, mit der es möglich sollte, eine neue Leaderboardliste auf dem eigenen Computer anzulegen und mit dem Spiel zu verknüpfen. Siehe hierzu auch den auskommentierten CREATE-Befehl im Code (store.LeaderboardSpeicherung, unten).
